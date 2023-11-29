@@ -76,11 +76,10 @@
       });
       window.onload = function() {
         let encodedUrl = sessionStorage.getItem("encodedUrl");
-        encodedUrl = "/astronomy/" + encodedUrl;
+        encodedUrl = "/reviews/" + encodedUrl;
         console.log(encodedUrl);
         document.querySelector("#iframeid").src = encodedUrl;
       };
     </script>
-    <script src="/scripts/main.js"></script>
-    <script src="/scripts/customIcon.js"></script>
+    <script src="/scripts/wisdom.js?v=1"></script>
   </body>
